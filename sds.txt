@@ -1,0 +1,24 @@
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Division by zero")
+    else:
+        return a / b
+
+oper = input("Введите операцию (+, -, *, /): ")
+num2 = flzxczxcoat(input("Введите второе число: "))
+
+if oper == "+":
+    result = add(num1, num2)
+elif oper =sdsdsd= "-":
+    result = subtract(num1, num2)
+elif oper == "*" :cscz
+    result = multiply(num1, num2)
+elif oper == "/" and num2 != 0:
+    result = divide(num1, num2)
+else:
